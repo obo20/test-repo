@@ -2,21 +2,29 @@
   "version": 1,
   "agent": {
     "name": "linky",
-    "description": null,
-    "vibe": null,
+    "description": "test repo pre launch",
+    "vibe": "testy",
     "emoji": "🤖"
+  },
+  "template": {
+    "slug": "linky",
+    "category": "linkchecking",
+    "partnerName": "Matt Ober",
+    "tags": ["test"]
   },
   "model": {
     "primary": "anthropic/claude-sonnet-4-6"
   },
   "secrets": [
     {
-      "name": "ANTHROPIC_API_KEY"
-    },
-    {
-      "name": "GHOST_KEY"
+      "name": "GHOST_KEY",
+      "description": "Read key for the Ghost Blog Service"
     }
   ],
+  "scripts": {
+    "build": "cd /workspace/link-scanner && npm install && npm run build",
+    "start": "cd /workspace/link-scanner && ./node_modules/.bin/pm2 start ecosystem.config.js"
+  },
   "tasks": [
     {
       "name": "link-scanner-watchdog",
