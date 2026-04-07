@@ -1,13 +1,13 @@
 {
   "version": 1,
   "agent": {
-    "name": "linky",
+    "name": "linky-sub",
     "description": "test repo pre launch",
-    "vibe": "testy",
+    "vibe": "linky-sub",
     "emoji": "🤖"
   },
   "template": {
-    "slug": "linky",
+    "slug": "linky-sub",
     "category": "linkchecking",
     "partnerName": "Matt Ober",
     "tags": ["test"]
