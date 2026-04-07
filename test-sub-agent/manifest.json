@@ -15,6 +15,12 @@
   "model": {
     "primary": "anthropic/claude-sonnet-4-6"
   },
+  "skills": [
+    {
+      "clawhub_slug": "alchemy-official",
+      "name": "alchemy-official"
+    }
+  ],
   "secrets": [
     {
       "name": "GHOST_KEY",
