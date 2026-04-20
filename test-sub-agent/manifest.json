@@ -9,7 +9,7 @@
   "template": {
     "slug": "linky-sub",
     "category": "linkchecking",
-    "partnerName": "Matt Ober",
+    "authorName": "Matt Ober",
     "tags": ["test"]
   },
   "model": {
